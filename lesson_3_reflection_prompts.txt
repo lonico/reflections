@@ -10,3 +10,10 @@ Why might you want to always pull changes manually rather than having Git automa
 I do not want to disrupt what I'm working on.
 My current changes may not be ready for a merge.
 I may want to create a new branch before a pull.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork: making a copy of another repository.  The new repository is disconnected from the old repository.
+Clone: making a copy of another repository.  The 2 copies are connected, and can push/pull from each other.
+Branch: within a repository, making a "copy" of the code.  The 2 copies can be merged.
